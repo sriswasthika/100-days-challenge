@@ -1,0 +1,14 @@
+Check if a Number is Positive or Negative 
+
+import java.util.*;
+class Main{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    if(n==0){
+      System.out.println("Zero");}
+    else{
+      String result=n>0 ? "Positive" : "Negative";
+      System.out.println(result);}
+  }
+}
