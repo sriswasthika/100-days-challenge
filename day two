@@ -21,3 +21,21 @@ public class Main
 		System.out.println(n*(n+1)/2);
 	}
 }
+
+Sum of first N natural numbers using recursion
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		System.out.println(re(n));
+	}
+	static int re(int n){
+	    if(n==0)
+	    return 0;
+	    else 
+	    return(n+(re(n-1)));
+	}
+}
