@@ -1,0 +1,22 @@
+Palindrome number
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int p=n;
+		int r=0;
+		while(n!=0){
+		    r=r*10+n%10;
+		    n/=10;
+		}
+		if(r==p){
+		    System.out.println("palindrome");
+		}
+		else{
+		    System.out.println("not a palindrome");
+		}
+	}
+}
