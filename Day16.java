@@ -21,4 +21,4 @@ public class Main
        System.out.println (n + " is not an Abundant Number");
    }
  }
-	
+.	
