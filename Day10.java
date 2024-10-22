@@ -1,7 +1,7 @@
 Star pattern
 public class StarPattern {
     public static void main(String[] args) {
-        int rows = 5; // You can change this to print more or less rows
+        int rows = 5;  // You can change this to print more or less rows
 
         // Print the upper half of the star pattern
         for (int i = 0; i < rows; i++) {
