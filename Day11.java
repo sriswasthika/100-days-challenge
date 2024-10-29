@@ -1,4 +1,4 @@
-Inverted Star Pattern
+Inverted Star Pattern 
 
 public class InvertedStarPattern {
     public static void main(String[] args) {
